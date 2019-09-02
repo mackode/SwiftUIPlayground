@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B58728231DAC2900A36938 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B58727231DAC2900A36938 /* ProfileHost.swift */; };
+		01B5872A231DAFB800A36938 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B58729231DAFB800A36938 /* CircleImage.swift */; };
+		01B5872E231DB14B00A36938 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B5872D231DB14B00A36938 /* MapView.swift */; };
 		01F837142317112D004180B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F837132317112D004180B9 /* AppDelegate.swift */; };
 		01F837162317112D004180B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F837152317112D004180B9 /* SceneDelegate.swift */; };
 		01F837182317112D004180B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F837172317112D004180B9 /* ContentView.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01B58727231DAC2900A36938 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		01B58729231DAFB800A36938 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		01B5872D231DB14B00A36938 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		01F837102317112D004180B9 /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F837132317112D004180B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01F837152317112D004180B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +48,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B58725231DABFB00A36938 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				01B58726231DAC0B00A36938 /* Landmark */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		01B58726231DAC0B00A36938 /* Landmark */ = {
+			isa = PBXGroup;
+			children = (
+				01B58727231DAC2900A36938 /* ProfileHost.swift */,
+			);
+			path = Landmark;
+			sourceTree = "<group>";
+		};
 		01F837072317112D004180B9 = {
 			isa = PBXGroup;
 			children = (
@@ -63,9 +85,12 @@
 		01F837122317112D004180B9 /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				01B58725231DABFB00A36938 /* Profile */,
 				01F837132317112D004180B9 /* AppDelegate.swift */,
 				01F837152317112D004180B9 /* SceneDelegate.swift */,
 				01F837172317112D004180B9 /* ContentView.swift */,
+				01B58729231DAFB800A36938 /* CircleImage.swift */,
+				01B5872D231DB14B00A36938 /* MapView.swift */,
 				01F837192317112E004180B9 /* Assets.xcassets */,
 				01F8371E2317112E004180B9 /* LaunchScreen.storyboard */,
 				01F837212317112E004180B9 /* Info.plist */,
@@ -88,7 +113,6 @@
 				B841294A567C898AA8CBD931 /* Pods-SwiftUIPlayground.debug.xcconfig */,
 				B0C426708F4ECFDF17BEFB7B /* Pods-SwiftUIPlayground.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -198,8 +222,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F837142317112D004180B9 /* AppDelegate.swift in Sources */,
+				01B5872E231DB14B00A36938 /* MapView.swift in Sources */,
 				01F837162317112D004180B9 /* SceneDelegate.swift in Sources */,
 				01F837182317112D004180B9 /* ContentView.swift in Sources */,
+				01B58728231DAC2900A36938 /* ProfileHost.swift in Sources */,
+				01B5872A231DAFB800A36938 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
