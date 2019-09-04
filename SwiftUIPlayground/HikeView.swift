@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct HikeView: View {
-    var hike: Hike
+    //var hike: Hike
     @State private var showDetail = false
 
     var body: some View {
@@ -19,9 +19,9 @@ struct HikeView: View {
                 //    .frame(width: 50, height: 30)
 
                 VStack(alignment: .leading) {
-                    Text(hike.name)
+                    Text("hike.name")
                         .font(.headline)
-                    Text(hike.distanceText)
+                    Text("hike.distanceText")
                 }
 
                 Spacer()
@@ -31,7 +31,7 @@ struct HikeView: View {
                 }) {
                     Image(systemName: "chevron.right.circle")
                         .imageScale(.large)
-                        .rotationEffect(.degrees(showDetail ? 90 : 0))
+                        //.rotationEffect(.degrees(showDetail ? 90 : 0))
                         .animation(nil)
                         .scaleEffect(showDetail ? 1.5 : 1)
                         .padding()
