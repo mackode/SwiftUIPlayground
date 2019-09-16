@@ -9,13 +9,15 @@
 import SwiftUI
 
 struct CategoryHome: View {
+    /*
     var categories: [String: [Landmark]] {
         Dictionary(
             grouping: landmarkData,
             by: { $0.category.rawValue }
         )
     }
-
+    */
+    
     var body: some View {
         NavigationView {
             Text("Landmarks Content")
