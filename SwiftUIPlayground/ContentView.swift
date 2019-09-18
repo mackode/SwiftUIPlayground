@@ -55,6 +55,10 @@ struct ContentView: View {
                 List(data, id: \.self) {item in
                     Text(item)
                 }
+
+                NavigationLink(destination: SettingsView()) {
+                    Text("Settings")
+                }
             }
             .navigationBarTitle(Text("Test field state"))
             .navigationBarItems(leading: HStack {
